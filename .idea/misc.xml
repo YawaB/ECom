@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/inventoryMS/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/discoveryService/pom.xml" />
+        <option value="$PROJECT_DIR$/billingMS/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

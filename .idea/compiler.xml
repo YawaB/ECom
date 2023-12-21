@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discoveryService" />
+        <module name="billingMS" />
         <module name="customerMS" />
         <module name="inventoryMS" />
         <module name="gateway" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="billingMS" options="-parameters" />
       <module name="customerMS" options="-parameters" />
       <module name="discoveryService" options="-parameters" />
       <module name="gateway" options="-parameters" />
