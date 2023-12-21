@@ -32,4 +32,8 @@
 <hr>
 p>Our gateway still working</p>
 <img src="captures/gatewayWorking.png" alt="dynamic config using the Bean">
-
+<hr>
+<h3>Billing Service</h3>
+<img src="captures/fullBills.png" alt="The billing service communicate with other microservices">
+p>We now get information about products and customers on the bill with the OpenFeign</p>
+<hr>

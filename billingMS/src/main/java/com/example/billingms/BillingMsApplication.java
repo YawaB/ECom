@@ -42,6 +42,7 @@ public class BillingMsApplication {
             products.forEach(product -> {
                 ProductItem productItem = new ProductItem();
                 productItem.setBill(savedBill);
+                productItem.setProductId(product.getId());
                 productItem.setQuantity(1 + new Random().nextInt(10));
                 productItem.setPrice(product.getPrice());
                 productItem.setDiscount(Math.random());

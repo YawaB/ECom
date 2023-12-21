@@ -1,6 +1,7 @@
 package com.example.billingms.entities;
 
 import com.example.billingms.models.Product;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,6 +22,7 @@ public class ProductItem {
     int quantity;
     double price;
     @ManyToOne
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     Bill bill;
 
     private double discount;
